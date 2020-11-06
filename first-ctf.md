@@ -30,7 +30,7 @@ output_file.close()
 f.close()
 ```
 
-## Vegetables 1
+## Dr. J's Vegetable Factory 1/2 🥕
 Given comma separated vegetables, provide indexes which will be used to sort
     the array. (the vegetable in the provided index will swap with the next
     vegetable on the array)
