@@ -1,3 +1,11 @@
+## Grep 1
+Given a file with a million flags, find the one whose first 10
+characters (after nactf) only have the letters 'n' ,'a' and 'c' and the last 14
+characters (before }) only have the characters 'c', 't' and 'f'.
+
+```sh
+grep -E '^nactf\{[nac]{10}.*[ctf]{14}\}$' flag.txt | awk 'length($0) == 52'
+```
 
 ## World Tour
  Given a file with hundreds of coordinates, find a secret message with the initials of all
